@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	body{
+		background:url("images/大鱼.jpg") no-repeat top center;
+		padding:50px 0 0 860px;
+	}
+	form{
+    width:248px;
+	height:220px;
+	background-color:#DD7D7E;
+	padding:30px 40px;
+	border:1px solid #f5eae8;
+    }
+	input{
+    display:block;
+    }
+	[type="text"],[type="password"]{
+	width:250px;
+	height:38px;
+	border:1px solid #ccc;
+	margin-bottom:30px;
+	font-size:16px;
+	text-indent:50px;
+    }
+    [type="text"]{
+	background:url("images/zhanghao.jpg")no-repeat 0 -2px;
+}
+    [type="password"]{
+    background:url("images/mima.jpg")no-repeat 0 -2px;
+}
+</style>
+</head>
+
+<body>
+<form action="#" method="post" name="form">
+        <input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+        <input type="password" name="password" placeholder="填写密码">
+        <input type="checkbox" name="account" value="1" id="account">
+        <label for="account">记住账号</label>
+        <div class="reg">
+             <a href="#">欢迎注册</a>
+             <a href="#">忘记密码</a>
+        </div>
+        <input type="button" name="submit">
+</form>
+</body>
+</html>
